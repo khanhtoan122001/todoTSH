@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.task_card {
+  width: 40vw;
+  max-width: 400px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stack {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.column-stack {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.main-task {
+  display: flex;
+  flex-direction: row;
+}
+.main-task .button {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media only screen and (max-width: 600px)
+{
+  .main-task {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-task .button {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
